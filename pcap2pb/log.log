@@ -1,0 +1,345 @@
+2022-12-15 15:29:20,716 ehp2hdmap.py INFO  load_file  load D:\EhrTest\pcap5001\5001.pcap
+2022-12-15 15:29:22,055 ehp2hdmap.py INFO  __init__  start
+2022-12-15 15:29:22,065 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2022-12-15 15:29:22,066 ehp2hdmap.py INFO  _create_marking  create marking
+2022-12-15 15:29:22,072 ehp2hdmap.py INFO  _create_objects  create objects
+2022-12-15 15:29:22,097 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2022-12-15 15:29:22,154 ehp2hdmap.py INFO  _get_city_code  get city code
+2022-12-15 15:29:31,574 ehp2hdmap.py INFO  _get_link_types  get link types
+2022-12-15 15:29:31,576 ehp2hdmap.py INFO  _get_link_class  get link class
+2022-12-15 15:29:31,576 ehp2hdmap.py INFO  _get_link_length  get link length
+2022-12-15 15:29:31,577 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2022-12-15 15:29:31,577 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2022-12-15 15:29:31,867 ehp2hdmap.py INFO  _get_speed  get speed
+2022-12-15 15:29:31,867 ehp2hdmap.py INFO  _get_width  get lane width
+2022-12-15 15:29:31,869 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2022-12-15 15:29:31,875 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2022-12-15 15:29:31,901 ehp2hdmap.py INFO  _get_slope  get adas slope
+2022-12-15 15:29:31,936 ehp2hdmap.py INFO  compose  create file data
+2022-12-15 15:29:31,941 main.py INFO  <module>  dump data
+2022-12-15 15:29:33,852 main.py INFO  <module>  end
+2022-12-16 08:36:14,081 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221002.pcap
+2022-12-16 08:36:14,144 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221003.pcap
+2022-12-16 08:36:14,166 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221004.pcap
+2022-12-16 08:36:14,197 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221005.pcap
+2022-12-16 08:36:14,213 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221011.pcap
+2022-12-16 08:36:14,228 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221012.pcap
+2022-12-16 08:36:14,266 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221013.pcap
+2022-12-16 08:36:14,313 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\033\033-20221014.pcap
+2022-12-16 08:36:27,915 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\079-Merged-20221004.pcap
+2022-12-16 08:36:33,027 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Filtered-20221103-144638.pcap
+2022-12-16 08:37:03,190 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221103-144937.pcap
+2022-12-16 08:37:10,536 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221122-104616.pcap
+2022-12-16 08:37:12,109 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221122-104638.pcap
+2022-12-16 08:37:18,929 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221122-104739.pcap
+2022-12-16 08:37:24,632 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221122-104837.pcap
+2022-12-16 08:37:38,466 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\079\Merged-20221122-104859.pcap
+2022-12-16 08:37:46,245 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221002.pcap
+2022-12-16 08:37:47,220 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221004.pcap
+2022-12-16 08:37:54,384 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221005.pcap
+2022-12-16 08:38:00,644 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221012.pcap
+2022-12-16 08:38:10,922 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221013.pcap
+2022-12-16 08:38:15,895 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221014.pcap
+2022-12-16 08:38:23,982 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\091\091-20221015.pcap
+2022-12-16 08:38:49,254 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\307-Merged-20221002.pcap
+2022-12-16 08:38:56,642 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Filtered-20221103-143009.pcap
+2022-12-16 08:39:10,118 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Filtered-20221103-163038.pcap
+2022-12-16 08:39:12,955 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Merged-20221103-145634.pcap
+2022-12-16 08:39:13,690 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Merged-20221118-144434.pcap
+2022-12-16 08:39:15,377 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Merged-20221118-144450.pcap
+2022-12-16 08:39:18,636 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Merged-20221118-144503.pcap
+2022-12-16 08:39:20,031 ehp2hdmap.py INFO  load_file  load D:\dev\pcap2pb\pcap_data\output\307\Merged-20221118-144517.pcap
+2022-12-16 08:40:34,942 ehp2hdmap.py INFO  __init__  start
+2022-12-16 08:40:40,798 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2022-12-16 08:40:41,208 ehp2hdmap.py INFO  _create_marking  create marking
+2022-12-16 08:40:44,280 ehp2hdmap.py INFO  _create_objects  create objects
+2022-12-16 08:40:53,174 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2022-12-16 08:42:03,419 ehp2hdmap.py INFO  _get_city_code  get city code
+2022-12-16 08:42:15,013 ehp2hdmap.py INFO  _get_link_types  get link types
+2022-12-16 08:42:15,272 ehp2hdmap.py INFO  _get_link_class  get link class
+2022-12-16 08:42:15,354 ehp2hdmap.py INFO  _get_link_length  get link length
+2022-12-16 08:42:15,426 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2022-12-16 08:42:15,456 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2022-12-16 08:48:33,556 ehp2hdmap.py INFO  _get_speed  get speed
+2022-12-16 08:48:33,944 ehp2hdmap.py INFO  _get_width  get lane width
+2022-12-16 08:48:34,290 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2022-12-16 08:48:38,470 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2022-12-16 08:49:02,140 ehp2hdmap.py INFO  _get_slope  get adas slope
+2022-12-16 08:49:31,722 ehp2hdmap.py INFO  compose_by_city  create file data by city code
+2022-12-16 08:49:41,974 main.py INFO  <module>  dump data
+2022-12-16 08:52:08,643 main.py INFO  <module>  end
+2022-12-21 11:41:49,662 ehp2hdmap.py INFO  load_file  load D:\EhrTest\bigpcap5001\5001.pcap
+2022-12-21 11:41:58,265 ehp2hdmap.py INFO  __init__  start
+2022-12-21 11:41:58,360 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2022-12-21 11:41:58,371 ehp2hdmap.py INFO  _create_marking  create marking
+2022-12-21 11:41:58,446 ehp2hdmap.py INFO  _create_objects  create objects
+2022-12-21 11:41:58,632 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2022-12-21 11:41:59,359 ehp2hdmap.py INFO  _get_city_code  get city code
+2022-12-21 11:42:08,935 ehp2hdmap.py INFO  _get_link_types  get link types
+2022-12-21 11:42:08,944 ehp2hdmap.py INFO  _get_link_class  get link class
+2022-12-21 11:42:08,946 ehp2hdmap.py INFO  _get_link_length  get link length
+2022-12-21 11:42:08,948 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2022-12-21 11:42:08,951 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2022-12-21 11:42:12,976 ehp2hdmap.py INFO  _get_speed  get speed
+2022-12-21 11:42:12,983 ehp2hdmap.py INFO  _get_width  get lane width
+2022-12-21 11:42:12,989 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2022-12-21 11:42:13,062 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2022-12-21 11:42:13,368 ehp2hdmap.py INFO  _get_slope  get adas slope
+2022-12-21 11:42:13,762 ehp2hdmap.py INFO  compose  create file data
+2022-12-21 11:42:13,787 main.py INFO  <module>  dump data
+2022-12-21 11:42:16,878 main.py INFO  <module>  end
+2022-12-21 11:42:58,096 ehp2hdmap.py INFO  load_file  load D:\EhrTest\bigpcap5001\5001.pcap
+2022-12-21 11:43:06,099 ehp2hdmap.py INFO  __init__  start
+2022-12-21 11:43:06,192 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2022-12-21 11:43:06,202 ehp2hdmap.py INFO  _create_marking  create marking
+2022-12-21 11:43:06,275 ehp2hdmap.py INFO  _create_objects  create objects
+2022-12-21 11:43:06,449 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2022-12-21 11:43:07,180 ehp2hdmap.py INFO  _get_city_code  get city code
+2022-12-21 11:43:07,374 ehp2hdmap.py INFO  _get_link_types  get link types
+2022-12-21 11:43:07,381 ehp2hdmap.py INFO  _get_link_class  get link class
+2022-12-21 11:43:07,383 ehp2hdmap.py INFO  _get_link_length  get link length
+2022-12-21 11:43:07,384 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2022-12-21 11:43:07,387 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2022-12-21 11:43:11,530 ehp2hdmap.py INFO  _get_speed  get speed
+2022-12-21 11:43:11,537 ehp2hdmap.py INFO  _get_width  get lane width
+2022-12-21 11:43:11,544 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2022-12-21 11:43:11,617 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2022-12-21 11:43:11,920 ehp2hdmap.py INFO  _get_slope  get adas slope
+2022-12-21 11:43:12,314 ehp2hdmap.py INFO  compose  create file data
+2022-12-21 11:43:12,339 main.py INFO  <module>  dump data
+2022-12-21 11:43:15,320 main.py INFO  <module>  end
+2023-02-02 17:15:22,756 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-105859-1.pcap
+2023-02-02 17:15:22,794 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-02 17:15:22,822 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-02 17:17:25,496 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-105859-1.pcap
+2023-02-02 17:21:22,198 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-02 17:21:28,651 ehp2hdmap.py INFO  __init__  start
+2023-02-02 17:21:28,688 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-02 17:21:28,692 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-02 17:21:28,718 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-02 17:21:28,800 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-02 17:21:29,582 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-02 17:21:38,179 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-02 17:21:38,181 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-02 17:21:38,182 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-02 17:21:38,183 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-02 17:21:38,185 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-02 17:21:41,984 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-02 17:21:41,987 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-02 17:21:41,989 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-02 17:21:42,011 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-02 17:21:42,203 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-02 17:21:42,462 ehp2hdmap.py INFO  compose  create file data
+2023-02-02 17:21:42,473 main.py INFO  <module>  dump data
+2023-02-02 17:21:45,656 main.py INFO  <module>  end
+2023-02-03 09:43:15,221 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-03 09:43:15,261 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-03 09:43:22,652 ehp2hdmap.py INFO  __init__  start
+2023-02-03 09:43:22,750 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-03 09:43:22,762 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-03 09:43:22,820 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-03 09:43:22,975 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-03 09:43:24,705 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-03 09:43:33,263 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-03 09:43:33,271 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-03 09:43:33,272 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-03 09:43:33,274 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-03 09:43:33,276 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-03 09:43:40,914 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-03 09:43:40,918 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-03 09:43:40,921 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-03 09:43:40,963 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-03 09:43:41,333 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-03 09:43:41,850 ehp2hdmap.py INFO  compose  create file data
+2023-02-03 09:43:41,871 main.py INFO  <module>  dump data
+2023-02-03 09:43:46,178 main.py INFO  <module>  end
+2023-02-03 10:01:40,150 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-03 10:01:46,514 ehp2hdmap.py INFO  __init__  start
+2023-02-03 10:01:46,556 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-03 10:01:46,562 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-03 10:01:46,590 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-03 10:01:46,674 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-03 10:01:47,437 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-03 10:01:56,307 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-03 10:01:56,308 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-03 10:01:56,309 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-03 10:01:56,309 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-03 10:01:56,310 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-03 10:02:00,622 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-03 10:02:00,624 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-03 10:02:00,626 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-03 10:02:00,649 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-03 10:02:00,842 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-03 10:02:01,113 ehp2hdmap.py INFO  compose  create file data
+2023-02-03 10:02:01,123 main.py INFO  <module>  dump data
+2023-02-03 10:02:04,722 main.py INFO  <module>  end
+2023-02-03 10:03:51,560 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-03 10:03:57,385 ehp2hdmap.py INFO  __init__  start
+2023-02-03 10:03:57,411 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-03 10:03:57,426 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-03 10:03:57,450 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-03 10:03:57,538 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-03 10:03:58,348 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-03 10:04:07,514 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-03 10:04:07,519 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-03 10:04:07,520 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-03 10:04:07,520 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-03 10:04:07,521 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-03 10:04:11,448 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-03 10:04:11,450 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-03 10:04:11,452 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-03 10:04:11,472 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-03 10:04:11,654 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-03 10:04:11,897 ehp2hdmap.py INFO  compose  create file data
+2023-02-03 10:04:11,907 main.py INFO  <module>  dump data
+2023-02-03 10:04:14,715 main.py INFO  <module>  end
+2023-02-03 10:05:55,357 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-03 10:05:55,395 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-03 10:06:03,160 ehp2hdmap.py INFO  __init__  start
+2023-02-03 10:06:03,256 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-03 10:06:03,271 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-03 10:06:03,321 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-03 10:06:03,486 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-03 10:06:05,098 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-03 10:06:13,675 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-03 10:06:13,677 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-03 10:06:13,678 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-03 10:06:13,679 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-03 10:06:13,681 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-03 10:06:21,509 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-03 10:06:21,513 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-03 10:06:21,516 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-03 10:06:21,560 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-03 10:06:21,960 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-03 10:06:22,492 ehp2hdmap.py INFO  compose  create file data
+2023-02-03 10:06:22,513 main.py INFO  <module>  dump data
+2023-02-03 10:06:26,253 main.py INFO  <module>  end
+2023-02-10 14:58:06,542 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-10 14:58:06,551 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-10 14:58:13,929 ehp2hdmap.py INFO  __init__  start
+2023-02-10 14:58:14,020 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-10 14:58:14,027 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-10 14:58:14,077 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-10 14:58:14,224 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-10 14:58:15,856 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-10 14:58:25,459 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-10 14:58:25,462 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-10 14:58:25,463 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-10 14:58:25,464 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-10 14:58:25,465 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-10 14:58:33,270 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-10 14:58:33,274 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-10 14:58:33,278 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-10 14:58:33,323 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-10 14:58:33,745 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-10 14:58:34,266 ehp2hdmap.py INFO  compose  create file data
+2023-02-10 14:58:34,289 main.py INFO  <module>  dump data
+2023-02-10 14:58:38,752 main.py INFO  <module>  end
+2023-02-13 10:23:57,817 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-114022.pcap
+2023-02-13 10:23:57,837 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\5001-151724-151839.pcap
+2023-02-13 10:24:05,641 ehp2hdmap.py INFO  __init__  start
+2023-02-13 10:24:05,749 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-13 10:24:05,756 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-13 10:24:05,804 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-13 10:24:05,952 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-13 10:24:07,720 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-13 10:24:17,975 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-13 10:24:17,978 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-13 10:24:17,980 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-13 10:24:17,981 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-13 10:24:17,983 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-13 10:24:27,568 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-13 10:24:27,573 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-13 10:24:27,578 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-13 10:24:27,627 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-13 10:24:28,109 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-13 10:24:28,747 ehp2hdmap.py INFO  compose  create file data
+2023-02-13 10:24:28,772 main.py INFO  <module>  dump data
+2023-02-13 10:24:33,865 main.py INFO  <module>  end
+2023-02-13 15:44:01,410 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\in\5001.pcap
+2023-02-13 15:44:07,204 ehp2hdmap.py INFO  __init__  start
+2023-02-13 15:44:07,238 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-13 15:44:07,242 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-13 15:44:07,264 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-13 15:44:07,350 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-13 15:44:08,110 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-13 15:44:17,616 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-13 15:44:17,617 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-13 15:44:17,618 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-13 15:44:17,618 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-13 15:44:17,619 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-13 15:44:21,637 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-13 15:44:21,638 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-13 15:44:21,640 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-13 15:44:21,660 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-13 15:44:21,857 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-13 15:44:22,121 ehp2hdmap.py INFO  compose  create file data
+2023-02-13 15:44:22,132 main.py INFO  <module>  dump data
+2023-02-13 15:44:24,708 main.py INFO  <module>  end
+2023-02-17 10:48:01,400 ehp2hdmap.py INFO  load_file  load D:\work\pcap\data\in\5001new.pcap
+2023-02-17 10:48:10,543 ehp2hdmap.py INFO  __init__  start
+2023-02-17 10:48:10,663 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-02-17 10:48:10,670 ehp2hdmap.py INFO  _create_marking  create marking
+2023-02-17 10:48:10,716 ehp2hdmap.py INFO  _create_objects  create objects
+2023-02-17 10:48:10,899 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-02-17 10:48:11,785 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-02-17 10:48:22,769 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-02-17 10:48:22,774 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-02-17 10:48:22,775 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-02-17 10:48:22,776 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-02-17 10:48:22,779 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-02-17 10:48:27,377 ehp2hdmap.py INFO  _get_speed  get speed
+2023-02-17 10:48:27,381 ehp2hdmap.py INFO  _get_width  get lane width
+2023-02-17 10:48:27,385 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-02-17 10:48:27,451 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-02-17 10:48:27,695 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-02-17 10:48:28,065 ehp2hdmap.py INFO  compose_by_city  create file data by city code
+2023-02-17 10:48:38,826 main.py INFO  <module>  dump data
+2023-02-17 10:48:43,880 main.py INFO  <module>  end
+2023-04-27 10:26:26,512 ehp2hdmap.py INFO  load_file  load D:\data\data_1012\test\1212.pcap
+2023-04-27 10:26:26,543 ehp2hdmap.py INFO  load_file  load D:\data\data_1012\test\5001.pcap
+2023-04-27 10:27:04,079 ehp2hdmap.py INFO  __init__  start
+2023-04-27 10:27:04,121 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-04-27 10:27:04,126 ehp2hdmap.py INFO  _get_location_pos  create location timestamp
+2023-04-27 10:27:04,471 ehp2hdmap.py INFO  _create_marking  create marking
+2023-04-27 10:27:04,492 ehp2hdmap.py INFO  _create_objects  create objects
+2023-04-27 10:27:04,562 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-04-27 10:27:05,272 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-04-27 10:27:14,992 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-04-27 10:27:15,005 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-04-27 10:27:15,006 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-04-27 10:27:15,006 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-04-27 10:27:15,007 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-04-27 10:27:19,274 ehp2hdmap.py INFO  _get_speed  get speed
+2023-04-27 10:27:19,276 ehp2hdmap.py INFO  _get_width  get lane width
+2023-04-27 10:27:19,278 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-04-27 10:27:19,301 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-04-27 10:27:19,484 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-04-27 10:27:19,715 main.py INFO  <module>  dump pos data
+2023-04-27 10:27:19,716 ehp2hdmap.py INFO  compose  create file data
+2023-04-27 10:27:19,728 main.py INFO  <module>  dump data
+2023-04-27 10:27:23,876 main.py INFO  <module>  end
+2023-04-27 10:41:24,801 ehp2hdmap.py INFO  load_file  load D:\data\data_1012\test\1212.pcap
+2023-04-27 10:41:24,871 ehp2hdmap.py INFO  load_file  load D:\data\data_1012\test\5001.pcap
+2023-04-27 10:42:01,257 ehp2hdmap.py INFO  __init__  start
+2023-04-27 10:42:01,293 ehp2hdmap.py INFO  _parse_Lane_model  parse lane model
+2023-04-27 10:42:01,297 ehp2hdmap.py INFO  _get_location_pos  create location timestamp
+2023-04-27 10:42:01,628 ehp2hdmap.py INFO  _create_marking  create marking
+2023-04-27 10:42:01,650 ehp2hdmap.py INFO  _create_objects  create objects
+2023-04-27 10:42:01,728 ehp2hdmap.py INFO  _get_link_geometry  get link geometry
+2023-04-27 10:42:02,461 ehp2hdmap.py INFO  _get_city_code  get city code
+2023-04-27 10:42:11,730 ehp2hdmap.py INFO  _get_link_types  get link types
+2023-04-27 10:42:11,732 ehp2hdmap.py INFO  _get_link_class  get link class
+2023-04-27 10:42:11,733 ehp2hdmap.py INFO  _get_link_length  get link length
+2023-04-27 10:42:11,733 ehp2hdmap.py INFO  _get_lane_status  get lane status
+2023-04-27 10:42:11,734 ehp2hdmap.py INFO  _get_lane_geometry  get lane geometry
+2023-04-27 10:42:15,961 ehp2hdmap.py INFO  _get_speed  get speed
+2023-04-27 10:42:15,963 ehp2hdmap.py INFO  _get_width  get lane width
+2023-04-27 10:42:15,965 ehp2hdmap.py INFO  _create_connectivity  create connectivity
+2023-04-27 10:42:15,988 ehp2hdmap.py INFO  _get_curvature  get adas curvature
+2023-04-27 10:42:16,177 ehp2hdmap.py INFO  _get_slope  get adas slope
+2023-04-27 10:42:16,422 main.py INFO  <module>  dump pos data
+2023-04-27 10:42:16,422 ehp2hdmap.py INFO  compose  create file data
+2023-04-27 10:42:16,435 main.py INFO  <module>  dump data
+2023-04-27 10:42:19,038 main.py INFO  <module>  end
+2023-04-27 14:09:33,909 ehp2hdmap.py INFO  load_file  load D:\data\data_1012\test\1212\1212.pcap
