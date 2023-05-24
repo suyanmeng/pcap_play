@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["/home/yanrong/work/tcpdump/ehp.pcap", "/home/yanrong/work/dest/debug/linux/interval.json","50"],
+            "args": ["/home/yanrong/work/tcpdump/t1.pcap", "/home/yanrong/work/pcap_play_tool/pcap2pb/dist/interval.json","50"],
             "justMyCode": true
         }
     ]

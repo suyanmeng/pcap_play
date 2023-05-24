@@ -75,11 +75,10 @@ def load_file(file_path,interval_path,interval_input):
                     last_ts = ts
                 else:
                     dist = abs(ts-last_ts)
-                    print("dist ==",dist,"\n")
                     time.sleep(dist)
                     last_ts = ts
                 eth_udp = dpkt.ethernet.Ethernet(buf)
-                sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, PORT))
+                sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, eth_udp.data.data.dport))
                 while(time_prepare() != True):
                     time.sleep(real_interval*0.0001)
            
