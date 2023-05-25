@@ -10,10 +10,10 @@ from ehp_signal_matrix_struct import *
 MULTICAST_ADDR = '239.255.43.44'
 PORT = 12345
 
-interval = 50
-real_interval = 50
+interval:float = 20   #设置时间间隔
+real_interval:float = 20 #计时器工作时间间隔
+current_sum_interval:float = 0
 update_interval = False
-current_sum_interval = 0
 last_ts = 0
 
 def interval_watch(interval_path):
@@ -24,8 +24,8 @@ def interval_watch(interval_path):
         with open(interval_path, 'r') as f:
             # 读取JSON数据
             data = json.load(f)
-        if int(data["interval"]) != interval:
-            interval = int(data["interval"])
+        if float(data["interval"]) != interval:
+            interval = float(data["interval"])
             real_interval = real_interval if interval>1000 else interval
             update_interval = True
         time.sleep(1)
@@ -71,15 +71,16 @@ def load_file(file_path,interval_path,interval_input):
             watch_thread.start()
 
             for ts, buf in pcp_data:
-                if(last_ts == 0):
-                    last_ts = ts
-                else:
-                    dist = abs(ts-last_ts)
-                    time.sleep(dist)
-                    last_ts = ts
+                # if(last_ts == 0):
+                #     last_ts = ts
+                # else:
+                #     dist = abs(ts-last_ts)
+                #     time.sleep(dist)
+                #     last_ts = ts
+                time.sleep(real_interval*0.001)
                 eth_udp = dpkt.ethernet.Ethernet(buf)
                 sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, eth_udp.data.data.dport))
                 while(time_prepare() != True):
-                    time.sleep(real_interval*0.0001)
+                    time.sleep(1)
            
         sock.close()        
