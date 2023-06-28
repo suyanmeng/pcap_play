@@ -10,7 +10,16 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["/home/yanrong/work/tcpdump/t6_out.pcap", "/home/yanrong/work/pcap_play_tool/pcap2pb/dist/interval.json","20"],
+            "args": ["C:\\Users\\Yanrong.Kou\\Desktop\\pcap_play_tool\\pcap2pb\\dist\\t6.pcap", "C:\\Users\\Yanrong.Kou\\Desktop\\pcap_play_tool\\pcap2pb\\dist\\interval.json","20"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["/home/yanrong/work/tcpdump/0528_lg_go_5001_5003.pcap", "/home/yanrong/work/pcap_play_tool/pcap2pb/dist/interval.json","20"],
             "justMyCode": true
         }
     ]
