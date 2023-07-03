@@ -4,6 +4,7 @@ import dpkt
 import time
 import threading
 import json
+import sys
 from ehp_signal_matrix_struct import *
 
 # 组播地址和端口
@@ -52,10 +53,13 @@ def init_interval_file(interval_path, init_interval):
     with open(interval_path, 'w') as f:
         f.write(json_str)
 
-def load_file(file_path,interval_path,interval_input):
+def load_file(file_path ,interval_input):
     global interval
     global last_ts
     interval = interval_input
+    interval_path=os.path.dirname(sys.argv[0]) + "/interval.json"
+    print("interval_path=="+interval_path)
+    
     # 创建 UDP 套接字
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
     # 设置组播选项

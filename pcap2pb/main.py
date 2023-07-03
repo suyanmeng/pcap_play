@@ -8,13 +8,12 @@ sys.path.append(str(directory.parent))
 
 if __name__ == '__main__':
     import sys
-    if len(sys.argv) > 3:
+    if len(sys.argv) > 2:
         pcap_path = sys.argv[1]
-        interval_path = sys.argv[2]
-        interval = int(sys.argv[3])
+        interval = int(sys.argv[2])
         if os.path.isfile(pcap_path):
-            load_file(pcap_path, interval_path,interval)
+            load_file(pcap_path ,interval)
         else:
             print("pcap_path is not file")
     else:
-        print("[usage]: ./pcap_path interval_path interval")
+        print("[usage]: ./pcap_path interval")
