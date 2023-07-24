@@ -56,7 +56,9 @@ def init_interval_file(interval_path, init_interval):
 def load_file(file_path ,interval_input):
     global interval
     global last_ts
+    global real_interval
     interval = interval_input
+    real_interval = interval
     interval_path=os.path.dirname(sys.argv[0]) + "/interval.json"
     print("interval_path=="+interval_path)
     

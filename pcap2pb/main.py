@@ -10,7 +10,7 @@ if __name__ == '__main__':
     import sys
     if len(sys.argv) > 2:
         pcap_path = sys.argv[1]
-        interval = int(sys.argv[2])
+        interval = float(sys.argv[2])
         if os.path.isfile(pcap_path):
             load_file(pcap_path ,interval)
         else:

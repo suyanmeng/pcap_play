@@ -10,7 +10,7 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "args": ["C:\\Users\\Yanrong.Kou\\Desktop\\pcap_play_tool\\pcap2pb\\dist\\t6.pcap" ,"20"],
+            "args": ["C:\\Users\\Yanrong.Kou\\Desktop\\pcap_play_tool\\pcap2pb\\dist\\t6.pcap" ,"1"],
             "justMyCode": true
         },
         {
