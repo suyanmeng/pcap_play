@@ -11,8 +11,8 @@ from ehp_signal_matrix_struct import *
 MULTICAST_ADDR = '239.255.43.44'
 PORT = 12345
 
-interval:float = 20   #设置时间间隔
-real_interval:float = 20 #计时器工作时间间隔
+interval:float = 1   #初始播放速度
+real_interval:float = 1 #实际播放速度
 current_sum_interval:float = 0
 update_interval = False
 last_ts = 0
@@ -75,13 +75,13 @@ def load_file(file_path ,interval_input):
             watch_thread.start()
 
             for ts, buf in pcp_data:
-                # if(last_ts == 0):
-                #     last_ts = ts
-                # else:
-                #     dist = abs(ts-last_ts)
-                #     time.sleep(dist)
-                #     last_ts = ts
-                time.sleep(real_interval*0.001)
+                if(last_ts == 0):
+                    last_ts = ts
+                else:
+                    dist = abs(ts-last_ts)
+                    time.sleep(dist*real_interval)
+                    last_ts = ts
+                # time.sleep(real_interval*0.001)
                 eth_udp = dpkt.ethernet.Ethernet(buf)
                 sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, eth_udp.data.data.dport))
                 while(time_prepare() != True):
