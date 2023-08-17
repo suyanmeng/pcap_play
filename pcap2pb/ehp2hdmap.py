@@ -15,7 +15,8 @@ interval:float = 1   #初始播放速度
 real_interval:float = 1 #实际播放速度
 current_sum_interval:float = 0
 update_interval = False
-last_ts = 0
+last_pcap_ts = 0
+last_real_ts = 0
 
 def interval_watch(interval_path):
     global interval
@@ -54,8 +55,9 @@ def init_interval_file(interval_path, init_interval):
         f.write(json_str)
 
 def load_file(file_path ,interval_input):
-    global interval
-    global last_ts
+    global interval 
+    global last_pcap_ts
+    global last_real_ts
     global real_interval
     interval = interval_input
     real_interval = interval
@@ -77,12 +79,16 @@ def load_file(file_path ,interval_input):
             watch_thread.start()
 
             for ts, buf in pcp_data:
-                if(last_ts == 0):
-                    last_ts = ts
+                if(last_pcap_ts == 0):
+                    last_pcap_ts = ts
+                    last_real_ts = time.time()
                 else:
-                    dist = abs(ts-last_ts)
-                    time.sleep(dist*real_interval)
-                    last_ts = ts
+                    cur_real_ts = time.time()
+                    dist = (ts - last_pcap_ts) * real_interval - (cur_real_ts - last_real_ts)
+                    if dist > 0:
+                        time.sleep(dist)
+                    last_pcap_ts = ts
+                    last_real_ts = cur_real_ts
                 # time.sleep(real_interval*0.001)
                 eth_udp = dpkt.ethernet.Ethernet(buf)
                 sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, eth_udp.data.data.dport))
