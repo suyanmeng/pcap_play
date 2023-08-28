@@ -1,6 +1,6 @@
 import os
 import socket
-import dpkt
+import pyshark
 import time
 import threading
 import json
@@ -71,28 +71,28 @@ def load_file(file_path ,interval_input):
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_LOOP, 1)
 
     if os.path.exists(file_path):
-        with open(file_path, "rb") as fp:
-            pcp_data = dpkt.pcap.Reader(fp)
-            init_interval_file(interval_path,interval_input)
-            watch_thread = threading.Thread(target=interval_watch,args=(interval_path,))
-            watch_thread.daemon = True
-            watch_thread.start()
-
-            for ts, buf in pcp_data:
-                if(last_pcap_ts == 0):
+        cap = pyshark.FileCapture(file_path)
+        init_interval_file(interval_path,interval_input)
+        watch_thread = threading.Thread(target=interval_watch,args=(interval_path,))
+        watch_thread.daemon = True
+        watch_thread.start()
+        for packet in cap:
+            udp_payload = packet.udp.payload
+            udp_data = bytes.fromhex(udp_payload.replace(':', ''))
+            ts = float(packet.sniff_timestamp)
+            if(last_pcap_ts == 0):
                     last_pcap_ts = ts
                     last_real_ts = time.time()
-                else:
-                    cur_real_ts = time.time()
-                    dist = (ts - last_pcap_ts) * real_interval - (cur_real_ts - last_real_ts)
-                    if dist > 0:
-                        time.sleep(dist)
-                    last_pcap_ts = ts
-                    last_real_ts = cur_real_ts
-                # time.sleep(real_interval*0.001)
-                eth_udp = dpkt.ethernet.Ethernet(buf)
-                sock.sendto(bytes(eth_udp.data.data.data), (MULTICAST_ADDR, eth_udp.data.data.dport))
-                while(time_prepare() != True):
-                    time.sleep(1)
-           
-        sock.close()        
+            else:
+                cur_real_ts = time.time()
+                dist = (ts - last_pcap_ts) * real_interval - (cur_real_ts - last_real_ts)
+                if dist > 0:
+                    time.sleep(dist)
+                last_pcap_ts = ts
+                last_real_ts = cur_real_ts
+
+            sock.sendto(udp_data, (MULTICAST_ADDR, int(packet.udp.dstport)))    
+            while(time_prepare() != True):
+                time.sleep(1)
+        
+        sock.close()
