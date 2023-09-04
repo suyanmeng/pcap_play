@@ -5,6 +5,7 @@ import time
 import threading
 import json
 import sys
+
 from ehp_signal_matrix_struct import *
 
 # 组播地址和端口
@@ -63,7 +64,7 @@ def load_file(file_path ,interval_input):
     real_interval = interval
     interval_path=os.path.dirname(sys.argv[0]) + "/interval.json"
     print("interval_path=="+interval_path)
-    
+    tsharkpath = os.path.dirname(sys.argv[0]) + "/tshark.exe"
     # 创建 UDP 套接字
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
     # 设置组播选项
@@ -71,7 +72,7 @@ def load_file(file_path ,interval_input):
     sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_LOOP, 1)
 
     if os.path.exists(file_path):
-        cap = pyshark.FileCapture(file_path)
+        cap = pyshark.FileCapture(file_path,tshark_path= tsharkpath)
         init_interval_file(interval_path,interval_input)
         watch_thread = threading.Thread(target=interval_watch,args=(interval_path,))
         watch_thread.daemon = True
@@ -81,8 +82,8 @@ def load_file(file_path ,interval_input):
             udp_data = bytes.fromhex(udp_payload.replace(':', ''))
             ts = float(packet.sniff_timestamp)
             if(last_pcap_ts == 0):
-                    last_pcap_ts = ts
-                    last_real_ts = time.time()
+                last_pcap_ts = ts
+                last_real_ts = time.time()
             else:
                 cur_real_ts = time.time()
                 dist = (ts - last_pcap_ts) * real_interval - (cur_real_ts - last_real_ts)
